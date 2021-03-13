@@ -12,6 +12,5 @@
   'use strict';
   const style = document.createElement('style')
   style.innerHTML = '.small {display:none}'
-  console.log('style', style, document.head)
   document.head.appendChild(style)
 })();
